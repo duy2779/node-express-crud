@@ -1,0 +1,30 @@
+extends ../layouts/base
+
+block content
+    div(class="container")
+        div(class="row")
+            div(class="col-8")
+                form(action="/users/search", method="GET" class="text-right mt-5")
+                                        input(type="text" placeholder="Search..." name="q" id="search-input")
+                                        button(class="btn btn-success btn-sm ml-2") search
+                table(class="table")
+                    thead
+                        tr(class="d-flex")
+                            th(class="col-6") Name
+                            th(class="col-3") Phone
+                            th(class="col-3") Actions
+                    tbody
+                        each user in users
+                            tr(class="d-flex")
+                                td(class="col-6")= user.name
+                                td(class="col-3")= user.phone
+                                td(class="col-3")
+                                    a(class="btn btn-primary btn-sm" href="/users/"+user.id) view
+                                    a(class="btn btn-danger btn-sm ml-2" href="/users/delete/"+user.id) delete
+
+    script.
+        var searchInput = document.getElementById("search-input");
+        searchInput.addEventListener('change',function(){
+            sessionStorage.setItem('searchKey',searchInput.value);
+        })
+        searchInput.value = sessionStorage.getItem('searchKey');
