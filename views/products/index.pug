@@ -1,0 +1,59 @@
+extends ../layouts/base
+
+block content
+    .container
+        .d-flex.flex-wrap.justify-content-between.mt-5
+            each product in products
+                .card.mb-5(style='width: 15em;')
+                    img.card-img-top(src= product.avatar, alt='...')
+                    .card-body
+                        h5.card-title= product.name
+                        p.card-text
+                        | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                        a.btn.btn-primary(href='#') Go somewhere
+        nav(aria-label='...')
+            ul.pagination#pagination
+                li.page-item.disabled
+                    a.page-link(href='/product?page='+prevPage, tabindex='-1') Previous
+                li.page-item
+                    a.page-link(href='/product?page='+prevPage)= page-1
+                li.page-item.active
+                    a.page-link(href='/product?page='+page)= page
+                li.page-item
+                    a.page-link(href='/product?page='+nextPage)= page+1
+                li.page-item
+                    a.page-link(href='/product?page='+nextPage) Next
+
+        script.
+            var currentPage = #{page};
+            var maxPage = #{maxPage};
+            var pagination = document.getElementById('pagination');
+            paginationItem1 = pagination.children[0];
+            paginationItem2 = pagination.children[1];
+            paginationItem3 = pagination.children[2];
+            paginationItem4 = pagination.children[3];
+            paginationItem5 = pagination.children[4];
+            //for current page = first page
+            if(currentPage==1){
+                paginationItem2.classList.add('active');
+                paginationItem2.querySelector('a').href = `/product?page=${currentPage}`;
+                paginationItem3.classList.remove('active');
+
+                paginationItem2.querySelector('a').innerHTML = currentPage;
+                paginationItem3.querySelector('a').innerHTML = currentPage+1;
+                paginationItem3.querySelector('a').href = `/product?page=${currentPage+1}`;
+                paginationItem4.querySelector('a').innerHTML = currentPage+2;
+                paginationItem4.querySelector('a').href = `/product?page=${currentPage+2}`;
+            }
+            //for current page = last page
+            if(currentPage == maxPage){
+                paginationItem4.classList.add('active');
+                paginationItem4.querySelector('a').href = `/product?page=${currentPage}`;
+                paginationItem3.classList.remove('active');
+
+                paginationItem4.querySelector('a').innerHTML = currentPage;
+                paginationItem3.querySelector('a').innerHTML = currentPage-1;
+                paginationItem3.querySelector('a').href = `/product?page=${currentPage-1}`;
+                paginationItem2.querySelector('a').innerHTML = currentPage-2;
+                paginationItem2.querySelector('a').href = `/product?page=${currentPage-2}`;
+            }

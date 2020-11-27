@@ -3,7 +3,500 @@
     {
       "name": "Trần Quốc Duy",
       "phone": "0968346807",
+      "email": "jultqd99@gmail.com",
+      "password": "202cb962ac59075b964b07152d234b70",
       "id": "0sYFmHnJi"
+    },
+    {
+      "name": "Conan",
+      "phone": "78798789",
+      "id": "kn50sw-cr"
+    },
+    {
+      "name": "Goku",
+      "phone": "21212",
+      "id": "gquDkbiwm"
+    },
+    {
+      "name": "Sasuke",
+      "phone": "212121",
+      "id": "bixPOP7k_"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Emu",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 2,
+      "name": "Bee-eater, carmine",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 3,
+      "name": "Red-headed woodpecker",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 4,
+      "name": "Hummingbird (unidentified)",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 5,
+      "name": "Wallaby, tammar",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 6,
+      "name": "Rattlesnake, horned",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 7,
+      "name": "White-lipped peccary",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 8,
+      "name": "Macaque, japanese",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 9,
+      "name": "Brush-tailed rat kangaroo",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 10,
+      "name": "Porcupine, north american",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 11,
+      "name": "Aardwolf",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 12,
+      "name": "Leopard, indian",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 13,
+      "name": "Bennett's wallaby",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 14,
+      "name": "Green heron",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 15,
+      "name": "Otter, giant",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 16,
+      "name": "Eurasian beaver",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 17,
+      "name": "Tortoise, radiated",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 18,
+      "name": "Loris, slender",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 19,
+      "name": "Red sheep",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 20,
+      "name": "Great white pelican",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 21,
+      "name": "Barrows goldeneye",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 22,
+      "name": "Macaw, scarlet",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 23,
+      "name": "Shelduck, european",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 24,
+      "name": "Urial",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 25,
+      "name": "Teal, hottentot",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 26,
+      "name": "Eagle, white-bellied sea",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 27,
+      "name": "Ocelot",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 28,
+      "name": "Gaur",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 29,
+      "name": "Caribou",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 30,
+      "name": "Indian star tortoise",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 31,
+      "name": "Asian lion",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 32,
+      "name": "Large-eared bushbaby",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 33,
+      "name": "Vulture, white-rumped",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 34,
+      "name": "Desert tortoise",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 35,
+      "name": "Kongoni",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 36,
+      "name": "Little heron",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 37,
+      "name": "Yellow-brown sungazer",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 38,
+      "name": "African lion",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 39,
+      "name": "Gazelle, grant's",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 40,
+      "name": "Jaeger, long-tailed",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 41,
+      "name": "American marten",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 42,
+      "name": "Long-tailed jaeger",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 43,
+      "name": "Striped skunk",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 44,
+      "name": "Greylag goose",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 45,
+      "name": "Tenrec, tailless",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 46,
+      "name": "Civet cat",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 47,
+      "name": "Kudu, greater",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 48,
+      "name": "Pied cormorant",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 49,
+      "name": "Red-winged hawk (unidentified)",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 50,
+      "name": "North American beaver",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 51,
+      "name": "Cockatoo, sulfur-crested",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 52,
+      "name": "Paradoxure",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 53,
+      "name": "Black-faced kangaroo",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 54,
+      "name": "Golden-mantled ground squirrel",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 55,
+      "name": "Fox, asian red",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 56,
+      "name": "Tropical buckeye butterfly",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 57,
+      "name": "Lesser flamingo",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 58,
+      "name": "Common pheasant",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 59,
+      "name": "Bent-toed gecko",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 60,
+      "name": "Black-backed magpie",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 61,
+      "name": "Cobra, egyptian",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 62,
+      "name": "Spurfowl, yellow-necked",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 63,
+      "name": "Booby, blue-faced",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 64,
+      "name": "Gecko, bent-toed",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 65,
+      "name": "Javanese cormorant",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 66,
+      "name": "Brown capuchin",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 67,
+      "name": "Gecko, bent-toed",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 68,
+      "name": "Lappet-faced vulture",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 69,
+      "name": "Common shelduck",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 70,
+      "name": "White-browed sparrow weaver",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 71,
+      "name": "Iguana, marine",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 72,
+      "name": "Hyena, spotted",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 73,
+      "name": "Puma, south american",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 74,
+      "name": "Crab, sally lightfoot",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 75,
+      "name": "Saddle-billed stork",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 76,
+      "name": "Long-nosed bandicoot",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 77,
+      "name": "Crow, house",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 78,
+      "name": "Lapwing, southern",
+      "gender": "Female",
+      "avatar": "http://lorempixel.com/320/240"
+    },
+    {
+      "id": 79,
+      "name": "Lechwe, kafue flats",
+      "gender": "Male",
+      "avatar": "http://lorempixel.com/320/240"
     }
   ]
 }
